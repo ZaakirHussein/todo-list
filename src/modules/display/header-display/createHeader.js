@@ -27,7 +27,8 @@ const navCreation = (() => {
   centerNavBar.classList.add("nav-center");
   const leftNavLogo = centerNavBar.appendChild(document.createElement("img"));
   leftNavLogo.setAttribute("id", "nav-logo");
-  leftNavLogo.src = "/images/Todo List Secondary Logo(transparent).png";
+  leftNavLogo.src =
+    "/todo-list/images/Todo-List-Secondary-Logo(transparent).png";
   const navTitle = centerNavBar.appendChild(document.createElement("h1"));
   navTitle.textContent = "Todo List";
   navTitle.setAttribute("id", "nav-title");
